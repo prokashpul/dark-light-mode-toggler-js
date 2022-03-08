@@ -15,7 +15,10 @@ const darkModeDisable = () => {
     // class add
     document.body.classList.remove('dark');
 }
-
+// display save 
+if (darkMode === 'dark') {
+    darkModeEnable();
+}
 
 // button click event dark mode toggle
 
