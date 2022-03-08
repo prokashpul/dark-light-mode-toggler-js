@@ -1,0 +1,18 @@
+/* color */
+:root {
+    --primary-color: rgb(255, 255, 255);
+    --secondary-color: rgb(21, 29, 59);
+}
+
+.dark {
+    --primary-color: rgb(21, 29, 59);
+    --secondary-color: rgb(255, 255, 255);
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+h2 {
+    color: var(--secondary-color)
+}
